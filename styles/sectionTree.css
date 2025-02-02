@@ -1,0 +1,152 @@
+.leftTwo {
+    display: flex;
+    column-gap: 142px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.serviceAop {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    color: #499a18;
+    width: 306px;
+}
+
+.gardensBtn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+}
+
+.service {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    color: #499a18;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gardens {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #e06733;
+    width: 161px;
+    height: 50px;
+    border: 1px solid #e06733;
+    border-radius: 5px;
+}
+
+.gardens:hover {
+    background-color: #e06733;
+    color: #fff;
+}
+
+.sectionTree {
+    background: #edf2ec;
+}
+
+.planting {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 116px;
+    margin: 0;
+    padding-bottom: 94px;
+}
+
+.itemsPhoto {
+    border-radius: 20px 20px 0 0;
+    width: 329px;
+}
+
+.plantingPhoto {
+    border-radius: 20px 20px 0 0;
+}
+
+.underPhoto {
+    border: 1px solid #e3e1d5;
+    border-radius: 0 0 20px 20px;
+    width: 330px;
+    padding-left: 0px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center; 
+}
+
+.textTop {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #e06733;
+}
+
+.textBottom {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #717171;
+}
+
+@media screen and (max-width: 1185px){
+    .serviceAop {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 911px){
+    .itemsPhoto {
+        width: 281px;
+        height: 450px;
+    }
+
+    .planting {
+        gap: 90px;
+    }
+
+    .plantingPhoto {
+        width: 280px;
+        height: 350px;
+    }
+
+    .underPhoto {
+        width: 280px;
+        height: 100px; 
+        text-align: center;   
+    }
+
+    .textTop {
+        margin-bottom: 10px;
+    }
+
+    .textBottom {
+        width: 203px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .serviceAop {
+        font-size: 25px;
+        width: 187px;
+    }
+
+    .gardensBtn {
+        gap: 9px;
+    }
+
+    .gardens {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .planting {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,77 @@
+.footer {
+    display: flex;
+    align-items: center;
+    height: 130px;
+}
+
+.contentFooter {
+    width: 1222px;
+    padding-left: 109px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dataFooter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.symbolC {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #000;
+}
+
+.year {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #000;
+}
+
+.githab {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #000;
+}
+
+.networks {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+
+.instFbTwPin {
+    height: 32px;
+    width: 32px;
+}
+
+@media screen and (max-width: 768px){
+
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .networks {
+        justify-content: center;
+    }
+
+    .contentFooter {
+        width: 210px;
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .dataFooter{
+        justify-content: center;
+    }
+}

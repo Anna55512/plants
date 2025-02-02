@@ -1,0 +1,96 @@
+.sectionFive {
+    background: #edf2ec;
+    padding-top: 53px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}   
+.contactsText {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #499a18;
+    padding-top: 7px;
+}
+
+
+.rectangle {
+    width: 100%;
+    max-width: 450px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #d6e7d2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 64px;
+    box-sizing: border-box;
+    
+}
+
+.textRectangle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+    color: #717171;
+}
+
+.circleContacts {
+    width: 16px;
+    height: 16px;
+    background: #838282;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowContacts {
+    width: 5px;
+    height: 5px;
+}
+
+@media screen and (max-width: 1293px){
+    .contacts {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .woman {
+        order: 1;
+    }
+
+    .womanPhoto {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .rectangle {
+        width: 300px;
+        height: 50px;
+    }
+
+    .contactsText {
+        font-size: 25px;
+    }
+
+    .rectangle {
+        width: 250px;
+    }
+
+    .womanPhoto {
+        width: 100px;
+        height: 124px;
+        padding-top: 132px;
+    }
+}

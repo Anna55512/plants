@@ -1,0 +1,114 @@
+
+
+.sectionOne {
+    background: #edf2ec;
+}
+
+.photo {
+    margin-top: 78px;
+    margin-bottom: 45px;
+    width: 448px;
+    height: 409px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 78px;
+}
+
+.rightOne {
+    width: 549px;
+}
+
+.h1One {
+    font-family: var(--font-family); /* нужно разобраться */
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 111%;
+    color: #717171;
+}
+
+.spanOne {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 175%;
+    color: #636060;
+}
+
+.buttonOne {
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    background: rgba(217, 92, 39, 0);
+    border: 2px solid #e06733;
+}
+
+.buttonOne:hover {
+    background-color: #e06733;
+    color: #fff;
+}
+
+@media screen and (max-width: 1043px ){
+    .one {
+        flex-direction: row-reverse;
+        padding: 0;
+    }
+
+    .h1One {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .spanOne {
+        font-size: 16px;
+    }
+
+    .assetsPhoto {
+        width: 280px;
+        height: 254px;
+
+    }
+    .rightOne {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .leftOne {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    
+    .buttonOne {
+        border: 2px solid #e06733;
+        border-radius: 10px;
+        height: 34px;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .left {
+        margin-top: 20px;
+    }
+
+    .left-bottom {
+        font-size: 15px;
+        line-height: 167%;
+        width: 228px;
+    }
+
+    .rightOne {
+        display: initial;
+    } 
+
+    .h1One {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 140%;
+        height: 72px;
+    }
+}
