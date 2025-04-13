@@ -106,8 +106,9 @@
 
     .planting {
         gap: 90px;
+        justify-content: center;
     }
-
+    
     .plantingPhoto {
         width: 280px;
         height: 350px;
